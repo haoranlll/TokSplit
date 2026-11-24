@@ -1,0 +1,9 @@
+dataset,base_percent,defer4_sparsity_0pct_delta_pp,defer4_sparsity_0pct_score,defer4_sparsity_40pct_delta_pp,defer4_sparsity_40pct_score,defer4_sparsity_50pct_delta_pp,defer4_sparsity_50pct_score,defer4_sparsity_60pct_delta_pp,defer4_sparsity_60pct_score,defer4_sparsity_70pct_delta_pp,defer4_sparsity_70pct_score,defer4_sparsity_80pct_delta_pp,defer4_sparsity_80pct_score,defer4_sparsity_90pct_delta_pp,defer4_sparsity_90pct_score
+HumanEval,85.98,0.61,86.59,0.0,85.98,0.0,85.98,-0.61,85.37,-0.61,85.37,0.0,85.98,-2.44,83.54
+MBPP,77.6,0.0,77.6,0.2,77.8,0.2,77.8,-0.6,77.0,-0.2,77.4,-0.4,77.2,1.2,78.8
+GSM8K,96.06,-0.08,95.98,-0.23,95.83,0.07,96.13,0.23,96.29,-0.08,95.98,-0.38,95.68,0.45,96.51
+MMLU,85.53,-0.02,85.51,-0.1,85.43,-0.21,85.32,-0.12,85.41,0.01,85.54,0.0,85.53,-0.02,85.51
+HellaSwag,87.12,-0.13,86.99,-0.12,87.0,-0.12,87.0,-0.13,86.99,-0.13,86.99,-0.1,87.02,-0.09,87.03
+WinoGrande,74.69,-0.03,74.66,0.13,74.82,0.13,74.82,0.29,74.98,0.05,74.74,0.53,75.22,0.68,75.37
+ARC-Challenge,63.57,0.68,64.25,-0.09,63.48,0.17,63.74,0.34,63.91,0.17,63.74,0.59,64.16,0.0,63.57
+ARC-Easy,86.41,-0.26,86.15,-0.34,86.07,-0.26,86.15,0.16,86.57,-0.13,86.28,-0.38,86.03,-0.09,86.32

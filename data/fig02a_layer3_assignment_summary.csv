@@ -1,0 +1,5 @@
+prompt_tokens,layer,gpu_experts,cpu_experts,gpu_routed_tokens,cpu_routed_tokens,gpu_routed_token_fraction
+512,3,79,161,2727.0,1369.0,0.665771
+1024,3,139,111,7137.0,1055.0,0.871216
+2048,3,192,62,15784.0,600.0,0.963379
+4096,3,222,34,32414.0,354.0,0.989197

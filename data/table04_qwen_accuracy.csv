@@ -1,0 +1,17 @@
+model,dataset,base_percent,defer4_percent,defer4_minus_base_pp,defer4_ia80_percent,ia80_minus_base_pp
+Qwen3-235B,MMLU,84.75,84.75,0.0,84.73,-0.02
+Qwen3-235B,HellaSwag,85.57,85.48,-0.09,85.55,-0.02
+Qwen3-235B,WinoGrande,78.37,78.06,-0.31,78.45,0.08
+Qwen3-235B,HumanEval,75.0,75.0,0.0,77.44,2.44
+Qwen3-235B,MBPP,77.6,78.0,0.4,77.2,-0.4
+Qwen3-235B,GSM8K,92.8,93.18,0.38,92.34,-0.46
+Qwen3-235B,ARC-Challenge,66.47,66.64,0.17,66.21,-0.26
+Qwen3-235B,ARC-Easy,85.4,85.4,0.0,85.02,-0.38
+Qwen3-Coder,MMLU,85.22,85.2,-0.02,85.22,0.0
+Qwen3-Coder,HellaSwag,84.15,84.0,-0.15,84.04,-0.11
+Qwen3-Coder,WinoGrande,70.24,72.06,1.82,71.27,1.03
+Qwen3-Coder,HumanEval,73.78,73.78,0.0,75.0,1.22
+Qwen3-Coder,MBPP,79.0,79.4,0.4,78.8,-0.2
+Qwen3-Coder,GSM8K,94.84,94.84,0.0,94.84,0.0
+Qwen3-Coder,ARC-Challenge,64.51,64.93,0.42,64.76,0.25
+Qwen3-Coder,ARC-Easy,83.8,84.39,0.59,84.18,0.38

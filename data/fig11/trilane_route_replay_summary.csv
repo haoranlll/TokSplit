@@ -1,0 +1,12 @@
+policy_key,policy_label,num_cases,mean_regret_ms,mean_regret_pct,p90_regret_pct,mean_abs_delta_n,mean_signed_delta_n,mean_gpu_exposed_h2d_wait_ms,mean_cpu_ms
+no_stream,Resident-Only (n=0),12,319.952,220.098,368.426,95.42,-95.42,0.0,438.446
+fixed_32,Fixed-32,12,180.753,118.168,227.648,63.42,-63.42,7.135,299.249
+fixed_64,Fixed-64,12,99.466,62.865,127.255,37.58,-31.42,17.544,212.754
+smoe_rule,SMOE-style (Token-Threshold),12,96.65,91.998,128.117,95.92,95.92,93.357,10.353
+two_lane_compute,2-Lane Compute-Only (No H2D),12,45.609,54.832,124.446,42.5,41.83,58.709,79.441
+local_rule,Per-Expert Marginal Rule,12,91.074,88.404,164.064,53.42,-49.42,2.02,202.599
+apex_2lane,2-Path Serial (H2D+GPU),12,56.534,38.383,80.395,27.33,-27.33,14.205,175.002
+trilane_no_prefetch,TriLane w/o Prefetch-Ready,12,11.095,9.211,17.291,8.83,-4.5,21.212,120.452
+trilane_no_tail,TriLane w/o Last-Group Tail,12,6.873,5.783,10.448,6.08,-1.08,22.532,116.314
+trilane_legacy_eq10,TriLane (Legacy Eq.10),12,7.169,6.118,11.587,6.42,-1.42,22.323,116.61
+trilane,TriLane (Ours),12,7.169,6.118,11.587,6.42,-1.42,22.323,116.61
